@@ -1,0 +1,23 @@
+{
+  "note": "Icons 128px (cards) and 64px (HUD). Order/ids below.",
+  "weapons": [
+    "sword",
+    "fkiller",
+    "homemat",
+    "slipper",
+    "mosquito_coil",
+    "glue_trap",
+    "zapper",
+    "smoke_bomb",
+    "magnifier",
+    "watergun",
+    "fan",
+    "vacuum",
+    "mosquito_net"
+  ],
+  "stats": [
+    "stat_damage",
+    "stat_range",
+    "stat_speed"
+  ]
+}

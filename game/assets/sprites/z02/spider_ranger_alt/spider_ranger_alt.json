@@ -1,0 +1,41 @@
+{
+  "name": "spider_ranger_alt",
+  "facing": "right",
+  "frameSize": [
+    78,
+    58
+  ],
+  "pivot": "bottom-center",
+  "bodySizePx": 60,
+  "sheet": {
+    "file": "spider_ranger_alt_sheet.png",
+    "columns": 3,
+    "rows": 4
+  },
+  "anims": {
+    "move": {
+      "row": 0,
+      "frames": 3,
+      "fps": 8,
+      "loop": true
+    },
+    "atk": {
+      "row": 1,
+      "frames": 2,
+      "fps": 10,
+      "loop": false
+    },
+    "hit": {
+      "row": 2,
+      "frames": 1,
+      "fps": 6,
+      "loop": false
+    },
+    "die": {
+      "row": 3,
+      "frames": 3,
+      "fps": 6,
+      "loop": false
+    }
+  }
+}

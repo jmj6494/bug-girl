@@ -1,0 +1,37 @@
+{
+  "note": "sizes in px (w,h). slash_1..3 = player sword slash growth frames; heart_1..2 = heal pickup blink; mob_slash = ladybug attack arc; hit_star = common hit spark; spit_projectile = fly projectile",
+  "sizes": {
+    "slash_1": [
+      54,
+      59
+    ],
+    "slash_2": [
+      73,
+      83
+    ],
+    "slash_3": [
+      96,
+      103
+    ],
+    "heart_1": [
+      24,
+      21
+    ],
+    "heart_2": [
+      24,
+      21
+    ],
+    "mob_slash": [
+      39,
+      40
+    ],
+    "hit_star": [
+      24,
+      25
+    ],
+    "spit_projectile": [
+      24,
+      21
+    ]
+  }
+}

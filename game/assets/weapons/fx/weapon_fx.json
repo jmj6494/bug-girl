@@ -1,0 +1,233 @@
+{
+  "note": "Weapon effect animations at 0.5x of the generated sheet. anchor = point to place on the player/target. Scale up/down in code for upgrades.",
+  "effects": {
+    "fx_spray": {
+      "frameSize": [
+        244,
+        184
+      ],
+      "anchor": [
+        2,
+        97
+      ],
+      "anchorType": "origin at left tip, vertical centre; effect extends to the right (rotate toward aim)",
+      "sheet": {
+        "file": "fx_spray_sheet.png",
+        "columns": 3,
+        "rows": 1
+      },
+      "fps": 8,
+      "frames": 3,
+      "loop": false
+    },
+    "fx_watergun": {
+      "frameSize": [
+        252,
+        92
+      ],
+      "anchor": [
+        2,
+        42
+      ],
+      "anchorType": "origin at left tip, vertical centre; effect extends to the right (rotate toward aim)",
+      "sheet": {
+        "file": "fx_watergun_sheet.png",
+        "columns": 3,
+        "rows": 1
+      },
+      "fps": 8,
+      "frames": 3,
+      "loop": false
+    },
+    "fx_magnifier": {
+      "frameSize": [
+        246,
+        126
+      ],
+      "anchor": [
+        2,
+        60
+      ],
+      "anchorType": "origin at left tip, vertical centre; effect extends to the right (rotate toward aim)",
+      "sheet": {
+        "file": "fx_magnifier_sheet.png",
+        "columns": 3,
+        "rows": 1
+      },
+      "fps": 8,
+      "frames": 3,
+      "loop": false
+    },
+    "fx_homemat": {
+      "frameSize": [
+        208,
+        166
+      ],
+      "anchor": [
+        104,
+        82
+      ],
+      "anchorType": "centre",
+      "sheet": {
+        "file": "fx_homemat_sheet.png",
+        "columns": 3,
+        "rows": 1
+      },
+      "fps": 8,
+      "frames": 3,
+      "loop": true
+    },
+    "fx_fan": {
+      "frameSize": [
+        196,
+        160
+      ],
+      "anchor": [
+        98,
+        80
+      ],
+      "anchorType": "centre",
+      "sheet": {
+        "file": "fx_fan_sheet.png",
+        "columns": 3,
+        "rows": 1
+      },
+      "fps": 8,
+      "frames": 3,
+      "loop": true
+    },
+    "fx_vacuum": {
+      "frameSize": [
+        176,
+        173
+      ],
+      "anchor": [
+        88,
+        86
+      ],
+      "anchorType": "centre",
+      "sheet": {
+        "file": "fx_vacuum_sheet.png",
+        "columns": 3,
+        "rows": 1
+      },
+      "fps": 8,
+      "frames": 3,
+      "loop": true
+    },
+    "fx_slipper": {
+      "frameSize": [
+        129,
+        142
+      ],
+      "anchor": [
+        64,
+        71
+      ],
+      "anchorType": "centre",
+      "sheet": {
+        "file": "fx_slipper_sheet.png",
+        "columns": 3,
+        "rows": 1
+      },
+      "fps": 8,
+      "frames": 3,
+      "loop": true
+    },
+    "fx_coil": {
+      "frameSize": [
+        162,
+        156
+      ],
+      "anchor": [
+        62,
+        154
+      ],
+      "anchorType": "bottom centre of the base",
+      "sheet": {
+        "file": "fx_coil_sheet.png",
+        "columns": 3,
+        "rows": 1
+      },
+      "fps": 8,
+      "frames": 3,
+      "loop": true
+    },
+    "fx_glue": {
+      "frameSize": [
+        207,
+        113
+      ],
+      "anchor": [
+        95,
+        110
+      ],
+      "anchorType": "bottom centre of the base",
+      "sheet": {
+        "file": "fx_glue_sheet.png",
+        "columns": 3,
+        "rows": 1
+      },
+      "fps": 8,
+      "frames": 3,
+      "loop": true
+    },
+    "fx_zapper": {
+      "frameSize": [
+        215,
+        126
+      ],
+      "anchor": [
+        2,
+        70
+      ],
+      "anchorType": "origin at left tip, vertical centre; effect extends to the right (rotate toward aim)",
+      "sheet": {
+        "file": "fx_zapper_sheet.png",
+        "columns": 3,
+        "rows": 1
+      },
+      "fps": 8,
+      "frames": 3,
+      "loop": false
+    },
+    "fx_smoke": {
+      "frameSize": [
+        222,
+        159
+      ],
+      "anchor": [
+        111,
+        79
+      ],
+      "anchorType": "centre",
+      "sheet": {
+        "file": "fx_smoke_sheet.png",
+        "columns": 3,
+        "rows": 1
+      },
+      "fps": 8,
+      "frames": 3,
+      "loop": false
+    },
+    "fx_net": {
+      "frameSize": [
+        217,
+        175
+      ],
+      "anchor": [
+        108,
+        87
+      ],
+      "anchorType": "centre",
+      "sheet": {
+        "file": "fx_net_sheet.png",
+        "columns": 3,
+        "rows": 1
+      },
+      "fps": 8,
+      "frames": 3,
+      "loop": true
+    }
+  }
+}

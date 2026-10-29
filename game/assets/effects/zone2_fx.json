@@ -1,0 +1,62 @@
+{
+  "note": "Zone 2 spider effects at 0.5x. fx_web_shot = ranger projectile, fx_web_trap = boss ground web trap (slows/roots player), fx_web_beam = boss web stream.",
+  "effects": {
+    "fx_web_shot": {
+      "frameSize": [
+        199,
+        72
+      ],
+      "anchor": [
+        99,
+        36
+      ],
+      "anchorType": "center",
+      "sheet": {
+        "file": "fx_web_shot_sheet.png",
+        "columns": 3,
+        "rows": 1
+      },
+      "fps": 8,
+      "frames": 3,
+      "loop": true
+    },
+    "fx_web_trap": {
+      "frameSize": [
+        204,
+        184
+      ],
+      "anchor": [
+        102,
+        92
+      ],
+      "anchorType": "center",
+      "sheet": {
+        "file": "fx_web_trap_sheet.png",
+        "columns": 3,
+        "rows": 1
+      },
+      "fps": 8,
+      "frames": 3,
+      "loop": true
+    },
+    "fx_web_beam": {
+      "frameSize": [
+        254,
+        114
+      ],
+      "anchor": [
+        2,
+        55
+      ],
+      "anchorType": "left tip, vertical centre; extends to the right (rotate toward aim)",
+      "sheet": {
+        "file": "fx_web_beam_sheet.png",
+        "columns": 3,
+        "rows": 1
+      },
+      "fps": 8,
+      "frames": 3,
+      "loop": false
+    }
+  }
+}

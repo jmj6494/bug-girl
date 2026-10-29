@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>벌레 퇴치녀</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="stage">
+    <canvas id="game"></canvas>
+
+    <div id="weapons" class="hud-weapons"></div>
+
+    <!-- 불러오는 중 -->
+    <div id="loading" class="overlay">
+      <div class="panel">
+        <p id="loading-text">불러오는 중…</p>
+        <div class="bar"><div id="loading-bar"></div></div>
+      </div>
+    </div>
+
+    <!-- 타이틀 -->
+    <div id="title" class="overlay hidden">
+      <div class="panel">
+        <h1 class="logo">벌레 퇴치녀</h1>
+        <p class="sub">몰려오는 벌레를 물리치고 10스테이지마다 나오는 보스를 쓰러뜨려라!</p>
+        <ul class="help">
+          <li><b>WASD / 방향키</b> 이동</li>
+          <li><b>공격</b>은 자동</li>
+          <li><b>P / Esc</b> 일시정지</li>
+          <li>5스테이지마다 무기를 하나 고른다</li>
+        </ul>
+        <button id="start-btn" class="btn">시작하기</button>
+      </div>
+    </div>
+
+    <!-- 버프 선택 -->
+    <div id="buff" class="overlay hidden">
+      <div class="buff-box">
+        <h2>무기를 하나 고르세요</h2>
+        <p class="sub">이미 가진 무기를 고르면 강화, 새 무기면 추가 (1·2·3 키로도 선택)</p>
+        <div id="cards" class="cards"></div>
+      </div>
+    </div>
+
+    <!-- 게임 오버 -->
+    <div id="gameover" class="overlay hidden">
+      <div class="panel">
+        <h2 class="red">GAME OVER</h2>
+        <p id="gameover-stage" class="sub"></p>
+        <button id="retry-btn" class="btn">다시 하기</button>
+      </div>
+    </div>
+
+    <!-- 구간 클리어 -->
+    <div id="victory" class="overlay hidden">
+      <div class="panel">
+        <h2 class="gold">VICTORY!</h2>
+        <p id="victory-text" class="sub"></p>
+        <button id="again-btn" class="btn">처음부터</button>
+      </div>
+    </div>
+
+    <!-- 일시정지 -->
+    <div id="pause" class="overlay dim hidden">
+      <div class="panel"><h2>일시정지</h2><p class="sub">P 또는 Esc로 계속</p></div>
+    </div>
+  </div>
+
+  <!-- file://로 열었을 때 쓰는 json 복사본 (tools/update_json_bundle.ps1 로 갱신) -->
+  <script src="js/json_bundle.js"></script>
+  <script src="js/data.js"></script>
+  <script src="js/assets.js"></script>
+  <script src="js/sprite.js"></script>
+  <script src="js/world.js"></script>
+  <script src="js/weapons.js"></script>
+  <script src="js/entities.js"></script>
+  <script src="js/game.js"></script>
+</body>
+</html>
